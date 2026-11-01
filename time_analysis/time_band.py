@@ -18,7 +18,7 @@ hour_table['Fraud_rate'] = (hour_table['Fraud']/hour_table['All'])*100
 hour_table['Fraud_rate'] = round(hour_table['Fraud_rate'],2).astype(str) + '%'
 
 --------------------------hour_table--------------------------
-Transaction_Type	Fraud	  Genuine	 All	  Fraud_rate
+Transaction_Type	Fraud	Genuine	     All	  Fraud_rate
 Time_band				
 [0.0, 5.0)	        44	    10615	    10659	    0.41%
 [5.0, 10.0)	        57	    19880	    19937	    0.29%
@@ -29,4 +29,4 @@ Time_band
 [30.0, 35.0)	    17	    27495	    27512	    0.06%
 [35.0, 40.0)	    48	    40925	    40973	    0.12%
 [40.0, inf)      	77	    59865	    59942	    0.13%
-All	               492	     284315	    284807	    0.17%
+All	               492	    284315	    284807	    0.17%
