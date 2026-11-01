@@ -17,7 +17,7 @@ Amount_Table['Fraud_rate'] = round(Fraud_rate,2).astype(str) + '%'
 Genuine_rate = (Amount_Table['Genuine']/Amount_Table['All']) * 100
 Amount_Table['Genuine_rate'] = round(Genuine_rate,2).astype(str) + '%'
 
-Amount_Table
+-----------------Amount_Table--------------------------
 
 Transaction_Type	    Fraud      Genuine	    All
 Amount_band			
