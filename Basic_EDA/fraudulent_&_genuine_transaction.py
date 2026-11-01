@@ -10,3 +10,4 @@ percentage_fraud, percentage_genuine
 class_groupby = dfcopy.groupby("Class")
 Class_values = class_groupby.agg({ "Amount": ["mean", "median", "min", "max", "std"]})
 Class_values
+
