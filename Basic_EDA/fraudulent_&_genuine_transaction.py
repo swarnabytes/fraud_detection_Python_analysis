@@ -11,7 +11,7 @@ class_groupby = dfcopy.groupby("Class")
 Class_values = class_groupby.agg({ "Amount": ["mean", "median", "min", "max", "std"]})
 Class_values
 
-```text
+```output
 +-------+----------------------------------------------+----------+
 | Class |   Mean    |  Min  |  Median  |    Max    |     Std      |
 +-------+-----------+-------+----------+-----------+--------------+
